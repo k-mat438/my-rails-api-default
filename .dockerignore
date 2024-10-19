@@ -1,0 +1,31 @@
+# Ignore version control files
+   .git
+   .gitignore
+
+   # Ignore docker and environment files
+   Dockerfile
+   docker-compose.yml
+   .dockerignore
+   .env
+
+   # Ignore log files
+   log/*
+
+   # Ignore temporary files
+   tmp/*
+
+   # Ignore test files
+   test
+   spec
+
+   # Ignore system files
+   .DS_Store
+
+   # Ignore database dumps
+   *.dump
+
+   # Ignore node modules
+   node_modules
+
+   # Ignore coverage reports
+   coverage
