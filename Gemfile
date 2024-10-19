@@ -26,22 +26,10 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'devise'
-gem 'devise_token_auth'
-gem 'rack-cors'
+# gem 'rack-cors'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
-  gem 'dotenv-rails'
-  gem 'factory_bot_rails'
-  gem 'rspec-rails'
-  gem 'faker'
-
-  # Linting and style checking
-  gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
-  gem 'rubocop-performance', require: false
 end
 
 group :development do
