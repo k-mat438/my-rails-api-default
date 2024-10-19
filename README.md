@@ -73,5 +73,5 @@ docker-compose run --rm api bundle install
 ## rubocop
 
 ```
-docker compose run --rm web bundle exec rubocop -A
+docker compose run --rm api bundle exec rubocop -A
 ```
